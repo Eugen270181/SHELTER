@@ -66,8 +66,9 @@
     color: #FFFFFF;
   }
   
-  .nav-menu ul{
+  .nav-menu {
     display: flex;
+    flex-direction: row;
     width: 27.6875rem;
     height: 1.6875rem;
   }
