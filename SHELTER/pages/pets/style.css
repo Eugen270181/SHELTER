@@ -1,5 +1,103 @@
-body {
-    box-sizing: border-box;
+* {
     margin: 0;
     padding: 0;
-   }
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* main-1280 */
+  .our-pets-1280 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 237.4375rem;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93.75%;
+    height: 1.579%;
+    margin: 3.75rem 0rem 0rem 2.5rem;
+    z-index: 5;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 4rem;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    width: 11.625rem;
+    height: 2.1875rem;
+    margin: 0.09rem 0rem 0rem 0rem;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+  }
+  
+  .subtitle {
+    display: flex;
+    align-items: center;
+    width: 11.25rem;
+    height: 0.9375rem;
+    margin: 0.58rem 0rem 0rem 0.27rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+  }
+  
+  .nav-menu ul{
+    display: flex;
+    width: 27.6875rem;
+    height: 1.6875rem;
+  }
+  
+  .active-link,
+  .link2,
+  .link3,
+  .link4 {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    text-decoration: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    letter-spacing: 0.08em;
+  }
+  
+  .active-link {
+    width: 7.125rem;
+    height: 1.6875rem;
+    border-bottom: 0.1875rem solid #F1CDB3;
+    margin: 1rem 0.0625rem;
+    color: #FAFAFA;
+  }
+  
+  .burger {
+    display: none;
+  }
+  
