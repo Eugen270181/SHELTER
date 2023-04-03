@@ -32,10 +32,9 @@ button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*--------------------*/
+/* -------------------- */
+
 html {
 	scroll-behavior: smooth;
 }
@@ -49,3 +48,39 @@ body {
 	font-size: 1.6rem;
 	font-family: Arial, Regular, sans-serif;
 }
+
+/* H */
+h2 {
+	font-family: "Georgia";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 130%;
+}
+
+h3 {
+	font-family: "Georgia";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+}
+
+h4 {
+	font-family: "Georgia";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115%;
+	letter-spacing: 0.06em;
+}
+
+h5 {
+	font-family: "Georgia";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+}
+
