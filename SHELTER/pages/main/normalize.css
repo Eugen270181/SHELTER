@@ -4,7 +4,7 @@
 	margin: 0;
 	border: 0;
 }
-*,*:before,*:after{
+*,*:before,*:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -14,7 +14,7 @@ a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
 
-html,body{
+html,body {
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
@@ -39,18 +39,19 @@ html {
 	scroll-behavior: smooth;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	font-size: 1.6rem;
 	font-family: Arial, Regular, sans-serif;
 }
 
+._wrapper
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* H */
-h2 {
+._h2 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
@@ -58,7 +59,7 @@ h2 {
 	line-height: 130%;
 }
 
-h3 {
+._h3 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
@@ -67,7 +68,7 @@ h3 {
 	letter-spacing: 0.06em;
 }
 
-h4 {
+._h4 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
@@ -76,11 +77,19 @@ h4 {
 	letter-spacing: 0.06em;
 }
 
-h5 {
+._h5 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 110%;
+}
+
+._p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
 }
 
