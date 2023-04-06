@@ -1,5 +1,5 @@
 /*Обнуление*/
-* {
+*{
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -44,14 +44,16 @@ body {
 	font-family: Arial, Regular, sans-serif;
 }
 
-._wrapper
+.wrapper
 {
     max-width: 1200px;
-    margin: auto;
+	margin:auto;
 }
-
+.img {
+    width: 100%;
+}
 /* H */
-._h2 {
+.h2 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
@@ -59,16 +61,16 @@ body {
 	line-height: 130%;
 }
 
-._h3 {
+.h3 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 35px;
-	line-height: 130%;
-	letter-spacing: 0.06em;
+	line-height: 129%;
+	letter-spacing: 0.055em;
 }
 
-._h4 {
+.h4 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
@@ -77,7 +79,7 @@ body {
 	letter-spacing: 0.06em;
 }
 
-._h5 {
+.h5 {
 	font-family: "Georgia";
 	font-style: normal;
 	font-weight: 400;
@@ -85,11 +87,36 @@ body {
 	line-height: 110%;
 }
 
-._p {
+.p {
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
+}
+
+.standart_btn {
+    background-color: #F1CDB3;
+    padding: 15px 45px;
+    border-radius: 100px;
+	width: fit-content;
+    height: 52px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    cursor: pointer;
+}
+
+.standart_btn:hover {
+    background-color: #fddcc4;
+    transition: all 0.5s ease;
 }
 

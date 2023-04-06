@@ -30,6 +30,7 @@
 
 .header_logo_title:hover {
     color: #fff;
+    transition: all 0.5s ease;
 }
 
 .header_logo_subtitle {
@@ -91,6 +92,7 @@ li .inactive:active {
 
 li .inactive:hover {
     color: #fafafa;
+    transition: all 0.5s ease;
 }
 /****************end !HEADER! ******************/
 
@@ -125,31 +127,6 @@ li .inactive:hover {
     color: #cdcdcd;
     margin: 0;
     margin-bottom: 42px;
-}
-
-.start-screen .btn {
-    background-color: #F1CDB3;
-    padding: 15px 45px;
-    border-radius: 100px;
-    width: 207px;
-    height: 52px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 130%;
-    letter-spacing: 0.06em;
-    color: #292929;
-    cursor: pointer;
-    transition: all 0.3s ease 0s; 
-}
-
-.start-screen .btn:hover {
-    background-color: #fddcc4;
 }
 
 /****************end !start-screen! ******************/
@@ -194,12 +171,17 @@ li .inactive:hover {
 /****************begin !pets! ******************/
 .pets {
     background: #F6F6F6;
+    text-align: center;
+//    padding: 0px 0px 100px 0px;
 }
 
 .pets_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #F6F6F6;
+    padding: 80px 0 100px;
+    gap: 60px;
 }
 
 .pets .btn_arrow {
@@ -213,16 +195,23 @@ li .inactive:hover {
     background: #F6F6F6;
 }
 
+.pets .btn_arrow:hover {
+    background-color: #f1cdb3;
+    transition: all 0.5s ease;
+}
+
 .pets .h3{
     width: 33.3%;
     color: #545454;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 90px;
 }
 
-.pets_slider{
+.pets_slider {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    gap: 62px;
 }
 
 .pets .arrow_btn {
@@ -236,10 +225,16 @@ li .inactive:hover {
     background: #F6F6F6;
 }
 
+.pets .arrow_btn:hover {
+    background-color: #FDDCC4;
+    transition: all 0.5s ease;
+}
+
 .pets_slider_cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 80px;
 }
 
 .pets .slider_card {
@@ -249,10 +244,13 @@ li .inactive:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 45px;
-    margin-bottom: 60px;
     transition: 2s;
     cursor: pointer;
+}
+
+.pets .slider_card:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .pets .slider_img {
@@ -285,19 +283,7 @@ li .inactive:hover {
     cursor: pointer;
 }
 
-.pets .pets_btn {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 45px;
-    background: #F1CDB3;
-    border-radius: 100px;
-    border: none;
-    font-family: "Georgia";
-    font-weight: 400;
-    font-size: 1.7rem;
-    line-height: 2.2rem;
-    color: #292929;
-    letter-spacing: 0.06em;
+.pets .slider_btn:hover {
+    background-color: #f1cdb3;
+    transition: all 0.5s ease;
 }
