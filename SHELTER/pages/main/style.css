@@ -95,7 +95,6 @@ li .inactive:hover {
     transition: all 0.5s ease;
 }
 /****************end !HEADER! ******************/
-
 /****************begin !start-screen! ******************/
 .start-screen{
     background: #5b483a;
@@ -286,4 +285,39 @@ li .inactive:hover {
 .pets .slider_btn:hover {
     background-color: #f1cdb3;
     transition: all 0.5s ease;
+}
+/****************end !pets! ******************/
+/****************begin !help! ******************/
+.help_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help .h3 {
+    width: 30%;
+    text-align: center;
+    color: #545454;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.help_icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 54px;
+    column-gap: 117px;
+}
+
+.help .icon {
+    text-align: center;
+}
+.help .img {
+    width:fit-content;
+}
+.help .h4 {
+    padding-top: 26px;
+    color: #545454;       
 }
