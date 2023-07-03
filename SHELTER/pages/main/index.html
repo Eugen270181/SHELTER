@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHELTER - Main</title>
+    <link type="image/x-icon" href="../../assets/icons/favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="../../assets/fonts/fonts.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper wrapper">
+            <a href="#" class="header_logo">
+                <h1 class="header_logo_title">Cozy House</h1>
+                <p class="header_logo_subtitle">Shelter for pets in Boston</p>
+            </a>
+            <ul class="header_navigation">
+                <li><a class="active" href="">About the shelter</a></li>
+                <li><a class="inactive" href="../pets/index.html">Our pets</a></li>
+                <li><a class="inactive" href="">Help the shelter</a></li>
+                <li><a class="inactive" href="">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="start-screen">
+        <div class="start-screen_wrapper wrapper">
+            <div class="start-screen_content_text">
+                <h2 class="h2">Not only people <br> need a house</h2>
+                <p class="p">
+                    We offer to give a chance to a little and nice puppy with an
+                    extremely wide and open heart. He or she will love you more than
+                    anybody else in the world, you will see!
+                </p>
+                <a href="#pets" class="standart_btn">Make a friend</a>
+            </div>
+            <div class="start-screen_content_image">
+                <img class="img" src="../../assets/images/start-screen-puppy.png" alt="start-screen-puppy">
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about_wrapper wrapper">
+            <div class="about_content_image">
+                <img class="img" src="../../assets/images/about-pets-1.png" alt="about-pets">
+            </div>
+            <div class="about_content_text">               
+                <h3 class="h3">About the shelter<br>“Cozy House”</h3>
+                <p class="p">
+                    Currently we have 121 dogs and 342 cats on our hands and statistics
+                    show that only 20% of them will find a family. The others will
+                    continue to live with us and will be waiting for a lucky chance to
+                    become dearly loved.
+                </p>
+                <p class="p">
+                    We feed our wards with the best food and make sure that they do not
+                    get sick, feel comfortable (including psychologically) and well. We
+                    are supported by 87 volunteers and 28 employees of various skill
+                    levels. About 12% of the animals are taken by the shelter staff.
+                    Taking care of the animals, they become attached to the pets and
+                    would hardly ever leave them alone.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="pets" id="pets">
+        <div class="pets_wrapper wrapper">
+            <h3 class="h3">Our friends who<br>are looking for a house</h3>
+            <div class="pets_slider">
+                <button class="arrow_btn"><img src="/assets/icons/Arrow-left.svg" alt="Arrow-left"></button>
+                <div class="pets_slider_cards">
+                    <div class="slider_card">
+                        <img class="slider_img" src="/assets/images/pets-katrine-1.png" alt="pets-katrine">
+                        <p class="slider_name">Katrine</p>
+                        <button class="slider_btn">Learn more</button>
+                    </div>
+                    <div class="slider_card">
+                        <img class="slider_img" src="/assets/images/pets-jennifer.png" alt="pets-jennifer">
+                        <p class="slider_name">Jennifer</p>
+                        <button class="slider_btn">Learn more</button>
+                    </div>
+                    <div class="slider_card">
+                        <img class="slider_img" src="/assets/images/pets-woody.png" alt="pets-woody.png">
+                        <p class="slider_name">Woody</p>
+                        <button class="slider_btn">Learn more</button>
+                    </div>
+                </div>
+                <button class="arrow_btn"><img src="/assets/icons/Arrow-right.svg" alt="Arrow-right"></button>
+            </div>
+            <button class="standart_btn" onclick="location.href = '/pages/pets/index.html'">Get to know the rest</button>
+        </div>
+    </section>
+    <section class="help" id="help"></section>
+    <section class="donation"></section>
+    <footer class="footer" id="footer"></footer>
+</body>
+</html>
